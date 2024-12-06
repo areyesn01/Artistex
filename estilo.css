@@ -2,6 +2,8 @@
 --violeta-logo: #8a039b;
 --amarillo-logo: #e4a846;
 --rosa-logo: #e57989;
+--amarillo-claro:#e4d946 ;
+--violeta-claro: #b87ab8;
 }
 
 
@@ -56,9 +58,50 @@ header{
  
 
 }
+#advice{
+    transform: translateY(50px);  
+    font-family: Arial, Helvetica, sans-serif; 
+    font: 15px;
+    color: var(--violeta-logo);
+   text-align: center;
+}
 
-content {
-    width: 40%;
+
+
+.tips-flex {
+   display: flex;
+  align-items: justify;
+  justify-content: space-evenly;
+  height: 300px;
+  transform: translateY(30px);
+  line-height: 1.7;
+  color :black;
+  
+  
+}
+
+.tip-item {
+    background-color: var(--violeta-claro);
+     width: 180px;
+    height: 180px;
+    padding-left: 5px;
+   border-style: solid;
+    border-color:var(--amarillo-logo) ;
+    border-radius: 5px;
+    
+}
+
+.important-item {
+    background-color:var(--amarillo-claro) ;
+    
+    
+    transform: translateY(-30px);
+}
+
+
+
+.cabecera {
+    max-width: 80%;
     height: auto;
     
    
