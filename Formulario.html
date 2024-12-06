@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Guia de viajes</title>
+    <link rel="stylesheet" href="estiloplanviaje.css">
+ <nav></nav>
+
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Plan de Viaje</h1>
+
+    </header>
+
+    <a href="plan-viaje.html"></a>
+    <br/>
+    <form>
+      <fieldset >
+    <p>Información del viajero</p>
+
+        <p>Nombre Completo<input type="text"  pattern="[A-Za-z]" placeholder="Escribe tu nombre" /> </p>
+        <p>Correo<input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
+        <p>Teléfono <input type="tel"  required pattern="[0-9]{10}" name="Número teléfono" placeholder="Número telefono" /></p>
+        
+      </fieldset>
+    <br/>
+    
+    <fieldset>
+    <p>Destino del Viaje</p>
+    
+        <p>
+            Pais de destino <input list="browsers" required />
+            <datalist id="browsers">
+                <option value="España"></option>
+                <option value="Francia"></option>
+                <option value="Italia"></option>
+                <option value="Asia"></option>
+                <option value="EEUU"></option>
+            </datalist>
+            <p>Ciudad de Destino<input type="text" name="ciudad de destino" >
+        </p>
+       
+   </p>
+    </fieldset>
+    <br/>
+   <fieldset>
+    <p>Fechas del viaje</p>
+    
+        <p>Fecha de salida <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
+        <p>Fecha de regreso <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
+        
+    </fieldset>
+
+
+    <br/>
+    <fieldset>
+    <p>Preferencias de Actividades</p>  
+        <p><input type="radio" name="genero" value="c" />Cultural</p>
+        <p><input type="radio" name="genero" value="a" />Aventura</p>
+        <p><input type="radio" name="genero" value="r" />Relajación</p>
+        <p><input type="radio" name="genero" value="g" />Gastronomía</p>
+        
+    </fieldset>
+    <br/>
+    <fieldset>
+    <p>Actividades Preferidas</p>
+        <p>Excursiones <input type="checkbox" name="condiciones" /></p>
+        <p>Museo<input type="checkbox" name="promo" /></p>
+        <p>Playa <input type="checkbox" name="condiciones"/></p>
+        <p>Senderismo<input type="checkbox" name="promo"/></p>
+        <p>Compras <input type="checkbox" name="condiciones"/></p>
+        <p>Vida nocturna<input type="checkbox" name="promo" /></p>
+        
+    </fieldset>
+
+    
+    <p>Comentarios adicionales <textarea name="text" cols="32" rows="10" minlength="20"></textarea></p>
+    <br/>
+    <p><input type="reset" value="Borrar" /><input type="submit" value="Enviar" /></p>
+
+</form>
+    </body>
+
+    </html>
