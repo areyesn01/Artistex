@@ -26,6 +26,7 @@ header{
    height: 80px;
    display:flex;
    
+   
 }
 
 .nav-menu ul{
@@ -56,23 +57,14 @@ header{
 
 }
 
-.BODA4 {
-    width: 20%;
-    height: 20%;
+content {
+    width: 40%;
+    height: auto;
     
+   
 }
 
-#BODA4 {
-    background-image: url(suculenta.png);
-    background-repeat: no-repeat;
-    border-radius: 7px; 
-    background-size: 100%;
-    height: 90%;
-    width: 90%; 
-    padding-left: 15px;
-   text-align: justify;
-   font-size: 10px;
-}
+
 
 footer{
     background-color: rgb(238, 175, 66);
