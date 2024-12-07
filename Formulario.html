@@ -6,7 +6,7 @@
 
     <title>Formulario Contacto</title>
     <link rel="stylesheet" href="estiloformulario.css">
- <nav></nav>
+    <nav></nav>
 
 </head>
 
@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        
+
         <div class="logo2">
             <img src="Imagenes/logo2.png" alt="logo empresa">
         </div>
@@ -22,95 +22,91 @@
     </header>
 
     <a href="Formulario.html"></a>
-    <br/>
+    <br />
     <form>
-      <fieldset >
-    <p><strong>Información de los Novios</strong></p>
-    <p><strong>Persona 1</strong></p>
+        <fieldset>
+            <p><strong>Información de los Novios</strong></p>
+            <p><strong>Persona 1</strong></p>
 
-        <p>Nombre Completo <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
-        <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
-        <p>Teléfono <input type="tel"  required pattern="[0-9]{10}" name="Número teléfono" placeholder="Número telefono" /></p>
-        <p>Dirección <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
-        
-        <p><strong>Persona 2</strong></p>
+            <p>Nombre Completo <input type="text" pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
+            <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)"
+                    placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
+            <p>Teléfono <input type="tel" required pattern="[0-9]{10}" name="Número teléfono"
+                    placeholder="Número telefono" /></p>
+            <p>Dirección <input type="text" pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
 
-        <p>Nombre Completo <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
-        <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
-        <p>Teléfono <input type="tel"  required pattern="[0-9]{10}" name="Número teléfono" placeholder="Número telefono" /></p>
-        <p>Dirección <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
-        <p><input type="reset" value="Borrar" /></p>
-        
-      </fieldset>
-    <br/>
-    
-    <fieldset>
-    <p><strong>Horario del Evento</strong></p>
-    
-        <p>
-            Horario <input list="browsers" required />
-            <datalist id="browsers">
-                <option value="BODA DE MAÑANA (Ceremonia por la mañana)"></option>
-                <option value="BODA DE NOCHE (Ceremonia por la tarde)"></option>
+            <p><strong>Persona 2</strong></p>
+
+            <p>Nombre Completo <input type="text" pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
+            <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)"
+                    placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
+            <p>Teléfono <input type="tel" required pattern="[0-9]{10}" name="Número teléfono"
+                    placeholder="Número telefono" /></p>
+            <p>Dirección <input type="text" pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
+            <p><input type="reset" value="Borrar" /></p>
+
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <p><strong>Horario del Evento</strong></p>
+
+            <p>
+                Horario <input list="browsers" required />
+                <datalist id="browsers">
+                    <option value="BODA DE MAÑANA (Ceremonia por la mañana)"></option>
+                    <option value="BODA DE NOCHE (Ceremonia por la tarde)"></option>
+                    <p><input type="reset" value="Borrar" /></p>
+
+
+
+            </p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <p><strong>Fecha del Evento</strong></p>
+
+            <p>Fecha <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
+            <p><input type="reset" value="Borrar" /></p>
+
+        </fieldset>
+
+        <br />
+        <fieldset>
+            <p><STRONG>SERVICIOS QUE DESEA CONTRATAR</STRONG></p>
+            <p><input type="checkbox" name="genero" value="a" />Artistas</p>
+            <p><input type="checkbox" name="genero" value="d" />DJ´s</p>
+            <p><input type="checkbox" name="genero" value="f" />Fotomatón & 360</p>
+            <p><input type="checkbox" name="genero" value="g" />Glitter Party</p>
+            <p><input type="checkbox" name="genero" value="h" />Hora Loca</p>
+            <p><input type="reset" value="Borrar" /></p>
+
+        </fieldset>
+
+        <br />
+        <form>
+            <fieldset>
+                <p><strong>Lugar de celebración del Evento</strong></p>
+
+
+                <p>Lugar <input type="text" pattern="[A-Za-z]" placeholder="Introduzca el lugar" /> </p>
+
+                <p>Dirección <input type="text" pattern="[A-Za-z]" placeholder="Introduzca dirección del sitio" /> </p>
                 <p><input type="reset" value="Borrar" /></p>
-                
-            
-       
-   </p>
-    </fieldset>
-    <br/>
-   <fieldset>
-    <p><strong>Fecha del Evento</strong></p>
-    
-        <p>Fecha <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
-        <p><input type="reset" value="Borrar" /></p>
-        
-        
-    </fieldset>
+
+            </fieldset>
+            <br />
 
 
-    <br/>
-    <fieldset>
-    <p><STRONG>SERVICIOS QUE DESEA CONTRATAR</STRONG></p>  
-        <p><input type="checkbox" name="genero" value="a" />Artistas</p>
-        <p><input type="checkbox" name="genero" value="d" />DJ´s</p>
-        <p><input type="checkbox" name="genero" value="f" />Fotomatón & 360</p>
-        <p><input type="checkbox" name="genero" value="g" />Glitter Party</p>
-        <p><input type="checkbox" name="genero" value="h" />Hora Loca</p>
-        <p><input type="reset" value="Borrar" /></p>
-        
-    </fieldset>
-    <br/>
-    <fieldset>
-    <p>Actividades Preferidas</p>
-        <p>Excursiones <input type="checkbox" name="condiciones" /></p>
-        <p>Museo<input type="checkbox" name="promo" /></p>
-        <p>Playa <input type="checkbox" name="condiciones"/></p>
-        <p>Senderismo<input type="checkbox" name="promo"/></p>
-        <p>Compras <input type="checkbox" name="condiciones"/></p>
-        <p>Vida nocturna<input type="checkbox" name="promo" /></p>
-        
-    </fieldset>
-    <br/>
-    <form>
-      <fieldset >
-    <p><strong>Lugar de celebración del Evento</strong></p>
-    
+            <p>Comentarios adicionales <textarea name="text" cols="32" rows="10" minlength="20"></textarea></p>
+            <br />
+            <p><input type="reset" value="Borrar" /><input type="submit" value="Enviar" /></p>
 
-        <p>Lugar <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca el lugar" /> </p>
-        
-        <p>Dirección <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca dirección del sitio" /> </p>
-        <p><input type="reset" value="Borrar" /></p>
-        
-      </fieldset>
-    <br/>
+        </form>
 
-    
-    <p>Comentarios adicionales <textarea name="text" cols="32" rows="10" minlength="20"></textarea></p>
-    <br/>
-    <p><input type="reset" value="Borrar" /><input type="submit" value="Enviar" /></p>
+        <footer>
+            <p>2024 Artistex.RF</p>
+        </footer>
+</body>
 
-</form>
-    </body>
-
-    </html>
+</html>
