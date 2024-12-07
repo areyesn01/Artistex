@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <title>Formulario Contacto</title>
-    <link rel="stylesheet" href="estiloplanviaje.css">
+    <link rel="stylesheet" href="estiloformulario.css">
  <nav></nav>
 
 </head>
@@ -14,60 +14,70 @@
 <body>
 
     <header>
-        <h1>Formulario de Contacto</h1>
+        
         <div class="logo2">
             <img src="Imagenes/logo2.png" alt="logo empresa">
         </div>
 
     </header>
 
-    <a href="plan-viaje.html"></a>
+    <a href="Formulario.html"></a>
     <br/>
     <form>
       <fieldset >
-    <p>Información del viajero</p>
+    <p><strong>Información de los Novios</strong></p>
+    <p><strong>Persona 1</strong></p>
 
-        <p>Nombre Completo<input type="text"  pattern="[A-Za-z]" placeholder="Escribe tu nombre" /> </p>
-        <p>Correo<input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
+        <p>Nombre Completo <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
+        <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
         <p>Teléfono <input type="tel"  required pattern="[0-9]{10}" name="Número teléfono" placeholder="Número telefono" /></p>
+        <p>Dirección <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
+        
+        <p><strong>Persona 2</strong></p>
+
+        <p>Nombre Completo <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
+        <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)" placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
+        <p>Teléfono <input type="tel"  required pattern="[0-9]{10}" name="Número teléfono" placeholder="Número telefono" /></p>
+        <p>Dirección <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
+        <p><input type="reset" value="Borrar" /></p>
         
       </fieldset>
     <br/>
     
     <fieldset>
-    <p>Destino del Viaje</p>
+    <p><strong>Horario del Evento</strong></p>
     
         <p>
-            Pais de destino <input list="browsers" required />
+            Horario <input list="browsers" required />
             <datalist id="browsers">
-                <option value="España"></option>
-                <option value="Francia"></option>
-                <option value="Italia"></option>
-                <option value="Asia"></option>
-                <option value="EEUU"></option>
-            </datalist>
-            <p>Ciudad de Destino<input type="text" name="ciudad de destino" >
-        </p>
+                <option value="BODA DE MAÑANA (Ceremonia por la mañana)"></option>
+                <option value="BODA DE NOCHE (Ceremonia por la tarde)"></option>
+                <p><input type="reset" value="Borrar" /></p>
+                
+            
        
    </p>
     </fieldset>
     <br/>
    <fieldset>
-    <p>Fechas del viaje</p>
+    <p><strong>Fecha del Evento</strong></p>
     
-        <p>Fecha de salida <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
-        <p>Fecha de regreso <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
+        <p>Fecha <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
+        <p><input type="reset" value="Borrar" /></p>
+        
         
     </fieldset>
 
 
     <br/>
     <fieldset>
-    <p>Preferencias de Actividades</p>  
-        <p><input type="radio" name="genero" value="c" />Cultural</p>
-        <p><input type="radio" name="genero" value="a" />Aventura</p>
-        <p><input type="radio" name="genero" value="r" />Relajación</p>
-        <p><input type="radio" name="genero" value="g" />Gastronomía</p>
+    <p><STRONG>SERVICIOS QUE DESEA CONTRATAR</STRONG></p>  
+        <p><input type="checkbox" name="genero" value="a" />Artistas</p>
+        <p><input type="checkbox" name="genero" value="d" />DJ´s</p>
+        <p><input type="checkbox" name="genero" value="f" />Fotomatón & 360</p>
+        <p><input type="checkbox" name="genero" value="g" />Glitter Party</p>
+        <p><input type="checkbox" name="genero" value="h" />Hora Loca</p>
+        <p><input type="reset" value="Borrar" /></p>
         
     </fieldset>
     <br/>
@@ -81,6 +91,19 @@
         <p>Vida nocturna<input type="checkbox" name="promo" /></p>
         
     </fieldset>
+    <br/>
+    <form>
+      <fieldset >
+    <p><strong>Lugar de celebración del Evento</strong></p>
+    
+
+        <p>Lugar <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca el lugar" /> </p>
+        
+        <p>Dirección <input type="text"  pattern="[A-Za-z]" placeholder="Introduzca dirección del sitio" /> </p>
+        <p><input type="reset" value="Borrar" /></p>
+        
+      </fieldset>
+    <br/>
 
     
     <p>Comentarios adicionales <textarea name="text" cols="32" rows="10" minlength="20"></textarea></p>
