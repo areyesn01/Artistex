@@ -59,11 +59,21 @@ header{
 
 }
 
-img{
-width: 100%;
+img {
+width: 125%;
 height: auto;
 border-radius: 7px;
 display: flex;
+box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.img2 {
+    padding-top: 10px;
+   width: 100%;
+    height: auto;
+    border-radius: 7px;
+    display: flex;  
 }
 
 

@@ -59,14 +59,15 @@
     
     }
 
-    #cabecera {
-       
-        background-image: url(ImgHoraLoca.JPG);
-    
-        border-radius: 5px;
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 7px;
+        
+        }
         
        
-    }
+    
 
     footer{
         background-color: rgb(238, 175, 66);

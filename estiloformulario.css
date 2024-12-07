@@ -24,9 +24,10 @@
         display:flex;
        
     }
-    .logo {
-       height: 40px;
+    .logo2 {
+       width: 100%;
        display:flex;
+       border-radius: 7px;
        
        
     }
