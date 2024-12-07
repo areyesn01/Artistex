@@ -25,31 +25,31 @@
     <br />
     <form>
         <fieldset>
-            <p><strong>Información de los Novios</strong></p>
+            <p><strong>INFORMACION DE LOS NOVIOS</strong></p>
             <p><strong>Persona 1</strong></p>
 
-            <p>Nombre Completo <input type="text" minlength="3" maxlength="30" required pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
+            <p>Nombre Completo <input type="text" minlength="3" maxlength="30" required pattern="[A-Za-z\s]+" placeholder="Introduzca su nombre" /> </p>
             <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)"
                     placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
             <p>Teléfono <input type="tel" required pattern="[0-9]{9}" name="Número teléfono"
                     placeholder="Número telefono" /></p>
-            <p>Dirección <input type="text" required pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
+            <p>Dirección <input type="text" required pattern="[A-Za-z\s0-9]+" placeholder="Introduzca su dirección" /> </p>
 
             <p><strong>Persona 2</strong></p>
 
-            <p>Nombre Completo <input type="text" required pattern="[A-Za-z]" placeholder="Introduzca su nombre" /> </p>
+            <p>Nombre Completo <input type="text" minlength="3" maxlength="30" required pattern="[A-Za-z\s]+" placeholder="Introduzca su nombre" /> </p>
             <p>Correo <input type="email" required pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.(es|com)"
                     placeholder="Correo electrónico" title="xxx@xxx.es/com" /></p>
             <p>Teléfono <input type="tel" required pattern="[0-9]{9}" name="Número teléfono"
                     placeholder="Número telefono" /></p>
-            <p>Dirección <input type="text" required pattern="[A-Za-z]" placeholder="Introduzca su dirección" /> </p>
+            <p>Dirección <input type="text" required pattern="[A-Za-z\s0-9]+" placeholder="Introduzca su dirección" /> </p>
             <p><input type="reset" value="Borrar" /></p>
 
         </fieldset>
         <br />
 
         <fieldset>
-            <p><strong>Horario del Evento</strong></p>
+            <p><strong>HORARIO DEL EVENTO</strong></p>
 
             <p>
                 Horario <input list="browsers" required />
@@ -64,7 +64,7 @@
         </fieldset>
         <br />
         <fieldset>
-            <p><strong>Fecha del Evento</strong></p>
+            <p><strong>FECHA DEL EVENTO</strong></p>
 
             <p>Fecha <input type="date" required name="fecha" min="2024-10-24" max="2029-10-24" /></p>
             <p><input type="reset" value="Borrar" /></p>
@@ -86,12 +86,12 @@
         <br />
         <form>
             <fieldset>
-                <p><strong>Lugar de celebración del Evento</strong></p>
+                <p><strong>LUGAR DE CELEBRACION DEL EVENTO</strong></p>
 
 
-                <p>Lugar <input type="text" pattern="[A-Za-z]" placeholder="Introduzca el lugar" /> </p>
+                <p>Lugar <input type="text" pattern="[A-Za-z\s0-9]+" placeholder="Introduzca el lugar" /> </p>
 
-                <p>Dirección <input type="text" pattern="[A-Za-z]" placeholder="Introduzca dirección del sitio" /> </p>
+                <p>Dirección <input type="text" pattern="[A-Za-z\s0-9]+" placeholder="Introduzca dirección del sitio" /> </p>
                 <p><input type="reset" value="Borrar" /></p>
 
             </fieldset>
