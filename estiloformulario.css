@@ -9,7 +9,7 @@
     
     
     body{
-        background-color: #dde68d;
+        background-color: #e1e6b4;
         font-family: Arial, Helvetica, sans-serif;
     }
     
@@ -39,7 +39,7 @@
         background-color: rgb(255, 176, 176);
     }
     
-    input:valid {
+    input:valid  {
         border: 2px solid green;
         background-color: rgb(137, 247, 137);
     }
