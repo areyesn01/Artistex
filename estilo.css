@@ -58,6 +58,16 @@ header{
  
 
 }
+
+img{
+width: 100%;
+height: auto;
+border-radius: 7px;
+display: flex;
+}
+
+
+
 #advice{
     transform: translateY(50px);  
     font-family: Arial, Helvetica, sans-serif; 
