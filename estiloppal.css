@@ -72,6 +72,15 @@
        
     }
     
+    .product-list{
+        background-color: rgb(233, 235, 164);  
+        border-radius: 7px;
+        list-style-type: none;
+       padding-bottom: 7px;
+      
+        
+    }
+
 
     footer{
         background-color: rgb(238, 175, 66);
