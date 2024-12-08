@@ -4,6 +4,8 @@
 --rosa-logo: #e57989;
 --amarillo-claro:#e4d946 ;
 --violeta-claro: #b87ab8;
+--sombra-suave: rgba(0, 0, 0, 0.1);
+--sombra-intensa: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -68,17 +70,11 @@ box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 
-.img2 {
-    padding-top: 10px;
-   width: 100%;
-    height: auto;
-    border-radius: 7px;
-    display: flex;  
-}
 
 
 
-#advice{
+
+#product{
     transform: translateY(50px);  
     font-family: Arial, Helvetica, sans-serif; 
     font: 15px;
@@ -96,6 +92,10 @@ box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
   transform: translateY(30px);
   line-height: 1.7;
   color :black;
+  box-shadow:4px 4px 10px 5px rgba(0, 195, 255, 0.158) ;
+  background-color: aliceblue;
+  padding-top: 40px;
+  border-radius: 7px;
   
   
 }
@@ -105,16 +105,16 @@ box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
      width: 180px;
     height: 180px;
     padding-left: 5px;
-   border-style: solid;
+    
+    border-style: solid;
     border-color:var(--amarillo-logo) ;
     border-radius: 5px;
+    
     
 }
 
 .important-item {
     background-color:var(--amarillo-claro) ;
-    
-    
     transform: translateY(-30px);
 }
 
