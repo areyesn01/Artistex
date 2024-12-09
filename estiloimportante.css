@@ -163,7 +163,7 @@
     padding: 5px;
     }
     
-    #pothos {
+    #fotomaton {
         background-image: url(Imagenes/fotomaton5.png);
         background-repeat: no-repeat;
         border-radius: 7px;
@@ -178,7 +178,7 @@
     }
     
     #suculenta {
-        background-image: url(suculenta.png);
+        background-image: url(Imagenes/plataforma3.png);
         background-repeat: no-repeat;
         border-radius: 7px; 
         background-size: 100%;
@@ -191,7 +191,7 @@
     }
     
     #ficus {
-        background-image: url(ficus.png);
+        background-image: url(Imagenes/horaloca3.png);
         background-repeat: no-repeat;
         border-radius: 7px;
         background-size: 100%;
