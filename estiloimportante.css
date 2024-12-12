@@ -127,37 +127,39 @@
     }
    
     
-    .gallery {
+    .galeria {
         font-family: Arial, Helvetica, sans-serif;
+       
     }
     
-    .plantas-grid {
+    .productos-opciones {
     background-color: #f0f4c3;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     display: inline-flex;
-    flex-direction: row-reverse;
+    
     column-gap: 30px;
     row-gap: 10px;
     height: 350px;
     padding: 25px;
     text-shadow: var(--sombra-texto);
+    border-radius: 7px;
     
     }
     
-    .plant-card {
+    .productos-card {
     
         transition: transform 0.3s, box-shadow 0.3s;
         
         
     }
     
-    .plant-card:hover {
+    .productos-card:hover {
         transform: translateY(-5px);
         box-shadow: 4px 4px 15px var(--sombra-intensa);
     }
     
-    .plant-card :is(p, h3) {
+    .productos-card :is(p, h3) {
     text-align: center;
     font-size: 15px;
     padding: 5px;
@@ -177,7 +179,7 @@
     
     }
     
-    #platafoma {
+    #plataforma {
         background-image: url(Imagenes/plataforma3.png);
         background-repeat: no-repeat;
         border-radius: 7px; 
@@ -200,16 +202,122 @@
         padding-left: 15px;
        text-align: justify;
        font-size: 10px;
-         
+           
+}
 
 
+table {
+    width: 80%;
+    max-width: 900px;
+    min-width: 500px;
+    margin: auto;
+    border-radius: 7px;
+    background-color: #c0cc38; 
+}
+
+thead{
+    background-color: #aab929;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #afa959;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #d7e492;
+}
+
+tfoot{
+    background-color: #88b60b;
+    text-align: center;
+}
+
+
+.gallery-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 7px;
+}
+
+
+.gallery {
+    display:inline-block;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.enlaces {
+    
+     
+    padding: 7px;
+    background-color: var(--sombra-suave);
+    border-radius: 7px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+
+   
+}
+.logos {
+    display: flex;
+    
     
 }
+
+.videos{
+text-align: center;
+}
+.fotomaton {
+    text-align: center;
+    width: 50%; 
+    margin: auto;
+    border-radius: 6px;
+    
+}
+.plataforma {
+    text-align: center;
+    width: 50%; 
+    margin: auto;
+    border-radius: 6px;
+}
+
+.horaloca {
+    text-align: center;
+    width: 50%; 
+    margin: auto;
+    border-radius: 6px;
+}
+
     footer{
         background-color: rgb(238, 175, 66);
         text-align: center;
-        padding-top: 30px;
+        padding-top: 15px;
         height: 60px;
         border-radius: 5px;
+        
     
     }
+   
